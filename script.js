@@ -20,7 +20,7 @@ form. addEventListener("submit", function (event) {
         ageResult.style.color = 'orange';
     }
     else if(ageInput < 18) {
-        ageResult.textContent = 
+        ageResult.textContent = ageInput;
         ageResult.style.color = "red";
     } else {
         ageResult.textContent = ageInput;
