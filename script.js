@@ -26,6 +26,8 @@ form. addEventListener("submit", function (event) {
         ageResult.textContent = ageInput;
         ageResult.style.color = 'green';
     }
+    
+    age.value = '';
     //return 0;
 });
 // Event properties
